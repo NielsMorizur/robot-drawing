@@ -22,7 +22,15 @@ triangle(793,345, 380,345, 700,190); //mountain right
   fill(255);
   noStroke();
 triangle(300, 150, 250, 200, 341, 200); //snow mountain left
-triangle(700, 189, 592, 242, 732, 242);
+triangle(700, 189, 592, 242, 732, 242); //snow right
+    //snow cut left
+  fill(56, 8, 155);
+  noStroke();
+triangle(280, 190, 250, 200, 320, 210);
+triangle(315, 190, 340, 200, 280, 210);
+    //snow cut right
+triangle(592, 242, 662, 227, 695, 255);
+triangle(670, 250, 700, 227, 732, 242);
   fill(107);
 ellipse(360, 370, 40, 40); //robot wheel
   strokeWeight(1.8);
